@@ -1,0 +1,6 @@
+# slowhttptest-qt
+作者使用qt为开源软件slowhttptest开发了一个简单的操作界面
+此软件只是提供了一个操作的界面，并不包括slowhttptest，如需正常使用需要提前安装slowhttptest。
+
+问题：
+1. slowhttptest中提供了终端的彩色输出，此时会导致在qtextbrowser组件中显示的混乱，简单期间，作者将slowhttptest中的slowlog.h中的user_color的宏进行了屏蔽。
